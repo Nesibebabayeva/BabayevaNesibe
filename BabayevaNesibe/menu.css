@@ -1,0 +1,24 @@
+.menu ul li{
+    display: inline-block;
+    background-color: rgb(234, 221, 143);
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    position: relative;
+    a{
+        color: brown;
+    }
+
+}
+.submenu{
+    display: none;
+}
+ ul li:hover > .submenu{
+    display: block;
+    color: black;
+}
+.menu ul li .submenu{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,23 @@
+label {
+    font-weight: bold;
+    color: darkgreen;
+}
+form:hover>.abc{
+    
+    color: blueviolet;
+}
+option{
+    text-align: center;
+}
+select{
+    background-color: cadetblue;
+}
+button{
+    background-color: rgb(251, 103, 103);
+}
+.form{
+    display: block;
+    border: 1px solid aqua;
+    background-color: aqua;
+padding: 30px;
+}
